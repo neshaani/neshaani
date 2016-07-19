@@ -1,0 +1,27 @@
+{
+  "name": "Neshaani",
+  "version": "0.1.0",
+  "description": "Neshaani URL Shortener.",
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neshaani/neshaani/"
+  },
+  "keywords": [
+    "shortener",
+    "url",
+    "tool",
+    "share"
+  ],
+  "author": "Behnam Baharmand <bbaharmand@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/neshaani/neshaani/issues"
+  },
+  "homepage": "https://www.neshaani.com/",
+  "devDependencies": {
+  }
+}
