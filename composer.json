@@ -1,0 +1,13 @@
+{
+    "name": "neshaani/neshaani",
+    "authors": [
+        {
+            "name": "Behnam Baharmand",
+            "email": "behnam@baharmand.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.4",
+        "illuminate/database": "^5.2"
+    }
+}
