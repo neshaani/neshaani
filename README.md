@@ -6,6 +6,7 @@ Neshaani is an open-source URL Shortener based on [Slim](http://www.slimframewor
 
 ## Project Layout
 ```
+app/
 src/
 	files/
 		fonts/
@@ -16,18 +17,7 @@ src/
 		modules/
 		variables.scss
 		main.scss
-	tamplates/
-		partials/
-		index.jade
-builds/
-	dev/
-		assets/
-			fonts/
-			images/
-			css/
-			js/
-			index.html
-	dist/
+public/
 ```
 
 ## API Documentation

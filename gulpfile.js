@@ -1,5 +1,4 @@
 var gulp 	= require('gulp');
-var jade 	= require('gulp-jade');
 // var browserify 	= require('gulp-browserify');
 
 /*
@@ -11,16 +10,10 @@ var jade 	= require('gulp-jade');
  |
 */
 
-gulp.task('jade', function() {
-	return gulp.src('src/templates/**/*.jade')
-	.pipe(jade())
-	.pipe(gulp.dest('builds/dev/'))
-});
-
 // gulp.task('js', function() {
 // 	return gulp.src('src/js/main.js')
 // 	.pipe(browserify({ debug: true }))
 // 	.pipe(gulp.dest('builds/development/js'));
 // });
 
-gulp.task('default', ['jade']);
+// gulp.task('default', ['browserify']);
