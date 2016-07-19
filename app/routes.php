@@ -2,11 +2,8 @@
 
 use Neshaani\Models\Link as Link;
 
-
 $app->get('/', function ($request, $response) {
-
     return $this->view->render($response, 'home.twig');
-
 });
 
 
@@ -62,7 +59,7 @@ $app->post('/api/generate', function ($request, $response) use ($app) {
 				->withJson([
 					'url' => $url,
 					'generate' => [
-						'url' 	=> $link->url,
+						'url' 	=> $this->get('settings')['baseURL'].$link->token,
 						'token' => $link->token
 					]
 				]);
@@ -75,7 +72,7 @@ $app->post('/api/generate', function ($request, $response) use ($app) {
 		]);
 
 	$newLink->update([
-			'token' => $newLink->id // todo: needs improvement
+			'token' => $newLink->generateToken()
 		]);
 
 	return $response->withStatus(201)
