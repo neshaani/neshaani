@@ -2,7 +2,7 @@
 
 This is the primary codebase that powers the API for [Neshaani.com](https://neshaani.com). 
 
-Neshaani is an open-source URL Shortener API based on [Slim](http://www.slimframework.com/) micro framework for PHP.
+Neshaani is an open-source [URL Shortener](https://en.wikipedia.org/wiki/URL_shortening) API based on [Slim](http://www.slimframework.com/) micro framework for PHP.
 
 ## Installation
 1. Clone the repo

@@ -1,0 +1,42 @@
+body {
+	padding-top: 20px;
+    padding-bottom: 20px;
+	text-align: center;
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+img.logo {
+	margin-top: 20px;
+	-webkit-transform: scale(0.85); /* Saf3.1+, Chrome */
+	 -moz-transform: scale(0.85); /* FF3.5+ */
+	  -ms-transform: scale(0.85); /* IE9 */
+	   -o-transform: scale(0.85); /* Opera 10.5+ */
+	      transform: scale(0.85);
+	         /* IE6–IE9 */
+	         filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');
+}
+
+h1, h2 {
+	font-family: 'Raleway', sans-serif;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	color: #999;
+	background-color: #999;
+	width: 10%;
+	margin: 25px auto;
+}
+
+a.guide {
+	color: orange;
+	font-size: 1.8em;
+	text-decoration: none;
+}
+
+span.highlight {
+	color: orange;
+}
