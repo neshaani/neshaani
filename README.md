@@ -1,5 +1,3 @@
-![iPasteBin](https://raw.githubusercontent.com/neshaani/neshaani/master/resources/files/neshaani-logo.jpg)
-
 # 🔗 [Neshaani](https://neshaani.com) App
 
 This is the primary codebase that powers the API for [Neshaani.com](https://neshaani.com). 
@@ -25,7 +23,7 @@ Neshaani is an open-source URL Shortener API based on [Slim](http://www.slimfram
 
 8. Make a POST request at ```/api/generate``` with your desired url.
 
-**It's recommended that you change the following variables in a production environment:**
+##### It's recommended that you change the following variables in a production environment:
 
 - ```/app/bootstrap.php```: ```ini_set('display_errors', 'Off');```
 
