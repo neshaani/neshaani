@@ -5,36 +5,24 @@ This is the primary codebase that powers the API for [Neshaani.com](https://nesh
 Neshaani is an open-source [URL Shortener](https://en.wikipedia.org/wiki/URL_shortening) API based on [Slim](http://www.slimframework.com/) micro framework for PHP.
 
 ## Installation
-1. Clone the repo
+1. Clone the Repository
 	```
 	git clone https://github.com/neshaani/neshaani.git
 	```
-2. Install [Composer](https://getcomposer.org/download/).
+2. Install [Composer](https://getcomposer.org/download/) and [NPM](https://docs.npmjs.com/getting-started/installing-node).
 
-3. Install [NPM](https://docs.npmjs.com/getting-started/installing-node).
+3. Run ```composer install && npm install```
 
-4. ```npm install && composer install```
+4. Rename ```/app/config.php.example``` to ```/app/config.php``` and modify it accordingly.
 
-5. Modify ```/app/database.php``` accordingly.
+5. Import ```/resources/database/neshaani_**.sql``` into your db.
 
-6. Set the baseURL in: ```/app/bootstrap.php```
+6. Make a POST request at ```BASE_URL/api/generate``` with your desired url.
 
-7. Import ```/resources/database/neshaani_**.sql``` into your mysql db.
-
-8. Make a POST request at ```/api/generate``` with your desired url.
-
-##### It's recommended that you change the following variables in a production environment:
-
-- ```/app/bootstrap.php```: ```ini_set('display_errors', 'Off');```
-
-- ```/app/bootstrap.php```: ```'displayErrorDetails' => false```
 
 
 ## API Usage
-Method: POST
-
-End Point: [baseURL]/api/generate/
-
+Method: ```POST``` | End Point: ```[baseURL]/api/generate/```
 
 Sample Request:
 ```

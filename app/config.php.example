@@ -1,0 +1,25 @@
+<?php
+
+return [
+
+	// General Settings
+
+    'timezone'				=> 'America/New_York',
+    'baseURL'				=> 'http://neshaani.app/',
+    'cache'					=> false,
+    'display_errors'		=> 'Off', // Php Error handle
+    'displayErrorDetails'	=> false, // Slim Error handle
+
+    // Database Settings
+
+    'db' => [
+	   	'driver' 	=> 'mysql',
+		'host'		=> '127.0.0.1',
+		'port'		=> '8889', // MAMP: 8889
+		'database' 	=> 'neshaani',
+		'username'	=> 'root',
+		'password'	=> 'secret',
+		'charset'	=> 'utf8',
+		'collation' => 'utf8_unicode_ci',
+    ]
+];
