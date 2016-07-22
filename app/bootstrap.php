@@ -1,4 +1,8 @@
 <?php
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: POST');
+header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+header('Access-Control-Max-Age: 1000');
 
 use \Slim\App as Slim;
 use \Slim\Views\Twig as Twig;

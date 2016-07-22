@@ -1,4 +1,4 @@
-# 🔗 [Neshaani](https://neshaani.com) App
+# 🔗 [Neshaani](https://api.neshaani.com) API
 
 This is the primary codebase that powers the API for [Neshaani.com](https://neshaani.com). 
 

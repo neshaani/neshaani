@@ -1,7 +1,7 @@
 {
-  "name": "Neshaani",
+  "name": "Neshaani API",
   "version": "0.3.0",
-  "description": "Neshaani URL Shortener.",
+  "description": "Neshaani URL Shortener API.",
   "scripts": {
     "prod": "gulp --production",
     "dev": "gulp watch"
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/neshaani/neshaani/issues"
   },
-  "homepage": "https://www.neshaani.com/",
+  "homepage": "https://api.neshaani.com/",
   "devDependencies": {
     "gulp": "^3.9.1"
   }
