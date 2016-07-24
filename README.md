@@ -9,15 +9,15 @@ Neshaani is an open-source [URL Shortener](https://en.wikipedia.org/wiki/URL_sho
 	```
 	git clone https://github.com/neshaani/neshaani.git
 	```
-2. Install [Composer](https://getcomposer.org/download/) and [NPM](https://docs.npmjs.com/getting-started/installing-node).
+2. Install [Composer](https://getcomposer.org/download/).
 
-3. Run ```composer install && npm install```
+3. Run ```composer install```
 
 4. Rename ```/app/config.php.example``` to ```/app/config.php``` and modify it accordingly.
 
 5. Import ```/resources/database/neshaani_**.sql``` into your db.
 
-6. Make a POST request at ```BASE_URL/api/generate``` with your desired url.
+6. Make a POST request at ```BASE_URL/api/generate``` with your desired url(s).
 
 
 
